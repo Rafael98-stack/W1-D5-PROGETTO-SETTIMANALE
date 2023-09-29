@@ -1,0 +1,170 @@
+/* Your styles here */
+h1 {font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;}
+h2 {font-size: 1.6rem;color: #1e9cc4;
+    font-family: 'Open Sans', sans-serif; }
+p {font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+/* Header */
+#container-logo {
+    background-color: black;
+ text-align: center;
+ position: relative;
+ height: 120px;
+
+}
+ #epicode-logo {
+
+width: 150px;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  
+}
+#container-title {
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+  background-position: -150px 0;
+  text-align: center;
+}
+#container-title h1 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+   margin: 0 auto;
+   width: 400px;
+   color: #1e9cc4;
+}
+#container-title p {
+    margin: 0 auto;
+    width: 400px;
+    padding-bottom: 40px;
+}
+#button-partiamo {
+    background-color: #f74b2b;
+    color: white;
+    height: 60px ;
+    width: 170px ;
+    font-size: 1.6rem;
+    border: solid white 2px;
+    border-radius: 5px;
+}
+/* Header */
+/* Main */
+/* CONTENT */
+#section-content {
+    padding: 50px 35px;
+    text-align: center;
+}
+#section-content h2{
+   margin: 25px auto;
+}
+#section-content p {
+    margin: 25px auto;
+}
+ #notebook  {
+    border-radius: 50%;
+    height: 300px;
+}
+/* ARTICLE */
+#section-article {
+    padding: 50px 35px;
+    background-color: #f74b2b;
+    text-align: center;
+}
+#section-article h1{
+    color: white;
+     
+}
+#section-article h2 {
+    color: white;
+}
+#section-article p:nth-child(2){
+margin: 25px auto;
+color: white;
+width: 380px;
+font-size: 1.3rem;
+}
+#section-article p:last-of-type {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+#section-article p {
+    color: white;
+}
+/* SELECTION */
+#section-selection {
+    padding: 50px 35px;
+    text-align: center;
+}
+#container {
+    height: 450px;
+    border: solid 2px #e3e3e3 ;
+    margin: 25px 0;
+    border-radius: 5px;
+    }
+    #container p {
+margin: 25px 20px;
+    }
+    #container h2 {
+        margin: 20px 20px;
+    }
+#image1 {
+    background-image: url(../images/foto1.jpg);
+    background-size: cover;
+    height: 250px;
+   
+    }
+#image2 {
+    background-image: url(../images/foto2.jpg);
+    background-size: cover;
+    height: 250px;
+    
+}
+#image3 {
+    background-image: url(../images/foto3.jpg);
+    background-size: cover;
+    height: 250px;
+   
+}
+/* Main */
+/* Footer */
+#container-footer {
+    background-color: #1e9cc4;
+    text-align: center;
+    padding: 50px 35px;
+}
+#container-footer  h1 {
+    color: white;
+    margin: 25px 20px;
+}
+#container-footer  p {
+    color: white;
+    margin: 20px 20px;
+    font-size: 1.3rem;
+}
+#container-footer  p:last-of-type {
+padding-top: 20px;
+margin: 0 auto;
+width: 290px;
+    border-top: solid white 2px ;
+}
+#container-footer  a {
+    color: white;
+    font-size: 1.3rem;
+}
+/* Footer */
+/* Icons */
+.fas {
+    font-size: 1rem;
+    background-color: white;
+    color: #1e9cc4;
+    width:20px ;
+    height: 20px;
+    margin: 5px;
+   border-radius: 3px;
+}
+
+/* Icons */
